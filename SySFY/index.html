@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Estilos/style.css">
+    <link rel="icon" type="image/x-icon" href="./Imagens/logo.png">
+    <title>System for You</title>
+</head>
+<body>
+    <script src="./Estilos/menu.js"></script>
+    <header>
+
+    <img class="logo" src="./Imagens/logo.png" alt="logo">
+
+    <div class="nav">
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Sobre.html">About</a></li>
+            <li><a href="Equipe.html">Our Team</a></li>
+            <!--<li><a href="Projetos.html">Projects</a></li>-->
+        </ul>
+    </div>
+
+    <div class="button">
+        <a href="#tips"><button class="btn" type="submit">Contato</button></a>
+    </div>
+
+        <div class="mobile-menu-icon">
+            <button onclick="menuShow()"><img class="icon" src="./Imagens/iconmenu.png" alt=""></button>
+        </div>
+
+        <div class="mobile-menu">
+            <ul class="nav-links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./Sobre.html">About</a></li>
+                <li><a href="./Equipe.html">Our Team</a></li>
+                <!--<li><a href="Projetos.html">Projects</a></li>-->
+            </ul>
+            <div class="button">
+                <a href="#tips"><button class="btn" type="submit">Contato</button></a>
+            </div>
+        </div>
+    </header>
+
+
+
+    <main>
+        <section class="conteudo">
+            <div class="conteudo-texto">
+                <h4 class="texto-h4">Feito com carinho por System For You</h4>
+                <h1 class="texto-h1">Simplifique suas dúvidas, organize seus estudos.</h1>
+                <p>Um jeito de aproximar alunos e instituição, ajude e seja ajudado.</p>
+                <a class="conteudo-btn" href="http://etecpoa.great-site.net/" target="_blank">Explore</a>
+            </div>
+            <div class="conteudo-img">
+                <img class="livro" src="./Imagens/HelplessBook.png" alt="Livro">
+            </div>
+        </section>
+    </main>
+
+    <main>
+    <section class="conteudo">
+    <div class="container">
+        <div class="card"> <!-- Primeiro Card -->
+            <div class="card-img">
+                <img src="./Imagens/missao.png" alt="" width="100px">
+            </div>
+            <h1>Missão</h1>   
+            <div class="conteudo-card">
+                <p class="card-p">Criar sempre os melhores produtos, 
+                    ajudar e facilitar o uso da tecnologia na vida das pessoas, 
+                    para inspira-las a ingressar no mundo tecnológico.
+                </p>
+            </div> 
+        </div> <!-- Fim do Primeiro Card-->
+
+        <div class="card"> <!-- Segundo Card -->
+            <div class="card-img">
+                <img src="./Imagens/vision.png" alt="" width="100px">
+            </div>
+            <h1>Visão</h1>   
+            <div class="conteudo-card">
+                <p class="card-p"> Ser referência no ramo tecnológico, 
+                    oferecendo excelência e praticidade.
+                </p>
+            </div> 
+        </div> <!-- Fim do Segundo Card -->
+
+        <div class="card"> <!-- Terceiro Card -->
+            <div class="card-img">
+                <img src="./Imagens/valores.png" alt="" width="100px">
+            </div>
+            <h1>Valores</h1>   
+            <div class="conteudo-card">
+                <p class="card-p">Igualdade, Paixão, Inovação, 
+                    Colaboração e Responsabilidade.
+                </p>
+            </div> 
+        </div> <!-- Fim do Terceiro Card-->
+    </div>
+    </section>
+    </main>
+    <!-- pop de contato -->
+ 
+    <div class="overlay" id="tips">
+        <div class="wrapper">
+            <h2>Contate-nos</h2>
+            <a href="#" class="close">&times;</a>
+            <div class="popcontent">
+                <div class="popcontainer">
+                    <form action="https://formsubmit.co/udasilva41@gmail.com" method="POST" >
+                    <label>Primeiro Nome</label>
+                    <input type="text" name="nome" placeholder="Digite seu nome">
+                    <label>E-mail</label>
+                    <input type="email" name="email" placeholder="Digite seu e-mail" required>
+                    <label>Mensagem</label>
+                    <textarea placeholder="Digite sua mensagem" required name="mensagem"></textarea>
+                    <input type="submit" value="Enviar">
+                    <input type="hidden" name="_subject" value="Novo E-mail de Contato!">
+                    <input type="text" name="_honey" style="display:none">
+                    <input type="hidden" name="_next" value="http://systemforyou.great-site.net/Projetos.html">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <footer>
+            <div class="footer-conteudo">
+                <h3>System for You</h3>
+                <p class="footer-pp">Av. Vital Brasil, 827 - Vl. Acoreana, Poá - SP, 08557-000 <br> systemforyou@gmail.com</p>
+                <ul class="footer-sociais">
+                    <li><a href="#"><img src="./Imagens/instagram.png" alt="logo instagram"></a></li>
+                    <li><a href="#"><img src="./Imagens/twitter.png" alt="logo twitter"></a></li>
+                    <li><a href="#"><img src="./Imagens/facebook.png" alt="logo facebook"></a></li>
+                    <li><a href="#"><img src="./Imagens/linkedin.png" alt="logo linkedin" ></a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <span><p class="footer-p">@2022 SystemForYou copyright &copy; Todos os direitos reservados</p></span>
+            </div>
+
+        </footer>
+</body>
+</html>

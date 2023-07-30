@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Estilos/style.css">
+    <link rel="stylesheet" href="./Estilos/pagestyle1.css">
+    <link rel="icon" type="image/x-icon" href="./Imagens/logo.png">
+    <title>System for You</title>
+</head>
+<body>
+    <script src="./Estilos/menu.js"></script>
+    <header>
+    <img class="logo" src="./Imagens/logo.png" alt="logo">
+
+    <div class="nav">
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Sobre.html">About</a></li>
+            <li><a href="Equipe.html">Our Team</a></li>
+            <!--<li><a href="Projetos.html">Projects</a></li>-->
+        </ul>
+    </div>
+
+    <div class="button">
+        <a href="#tips"><button class="btn" type="submit">Contato</button></a>
+    </div>
+
+      
+        <div class="mobile-menu-icon">
+            <button onclick="menuShow()"><img class="icon" src="./Imagens/iconmenu.png" alt=""></button>
+        </div>
+
+        <div class="mobile-menu">
+            <ul class="nav-links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./Sobre.html">About</a></li>
+                <li><a href="./Equipe.html">Our Team</a></li>
+                <!--<li><a href="Projetos.html">Projects</a></li>-->
+            </ul>
+            <div class="button">
+                <a href="#tips"><button class="btn" type="submit">Contato</button></a>
+            </div>
+        </div>
+        </div>
+    </header>
+    
+    <section class="about">
+        <div class="conteinudo">
+            <img src="./Imagens/work.jpeg" alt="">
+            <div class="textosobre">
+                <h1 class="sobre">Sobre Nós</h1>
+                <h5 class="titulosobre">System For You(SyS.FY)</h5>
+                <p class="psobre">
+                    Somos uma empresa no ramo da tecnologia criada em 2022 tendo como o principal objetivo a criação de sistemas completos e sofisticados, 
+                    porém simples e fáceis de utilizar. 
+                    Buscamos como um time, a força para se tornar referência quando se ouvir falar de tecnologia, 
+                    somos inovadores e colaboramos para que isso se torne realidade. 
+                    Ao criar nossos sistemas, procuramos inserir no mundo tecnológico aqueles que tem uma maior dificuldade ao utilizar destes meios, 
+                    por este motivo, nossos sistemas tem como principal  característica a simplicidade. 
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- pop de contato -->
+ 
+    <div class="overlay" id="tips">
+        <div class="wrapper">
+            <h2>Contate-nos</h2>
+            <a href="#" class="close">&times;</a>
+            <div class="popcontent">
+                <div class="popcontainer">
+                    <form action="https://formsubmit.co/udasilva41@gmail.com" method="POST" >
+                        <label>Primeiro Nome</label>
+                        <input type="text" name="nome" placeholder="Digite seu nome">
+                        <label>E-mail</label>
+                        <input type="email" name="email" placeholder="Digite seu e-mail" required>
+                        <label>Mensagem</label>
+                        <textarea placeholder="Digite sua mensagem" required name="mensagem"></textarea>
+                        <input type="submit" value="Enviar">
+                        <input type="hidden" name="_subject" value="Novo E-mail de Contato!">
+                        <input type="text" name="_honey" style="display:none">
+                        <input type="hidden" name="_next" value="http://systemforyou.great-site.net/Projetos.html">
+                        </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-conteudo">
+            <h3>System for You</h3>
+            <p class="footer-pp">Av. Vital Brasil, 827 - Vl. Acoreana, Poá - SP, 08557-000 <br> systemforyou@gmail.com</p>
+            <ul class="footer-sociais">
+                <li><a href="#"><img src="./Imagens/instagram.png" alt="logo instagram"></a></li>
+                <li><a href="#"><img src="./Imagens/twitter.png" alt="logo twitter"></a></li>
+                <li><a href="#"><img src="./Imagens/facebook.png" alt="logo facebook"></a></li>
+                <li><a href="#"><img src="./Imagens/linkedin.png" alt="logo linkedin" ></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <span><p class="footer-p">@2022 SystemForYou copyright &copy; Todos os direitos reservados</p></span>
+        </div>
+    
+    </footer>
+</body>
+</html>
